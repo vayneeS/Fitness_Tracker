@@ -1,0 +1,48 @@
+# Python virtual environments
+tracker_env/
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter notebook checkpoints and local runtime files
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+
+# Build and test artifacts
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
