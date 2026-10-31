@@ -1,14 +1,11 @@
 # Fitness Tracker
 
 An exploratory data analysis project for daily fitness and workout data. The
-Jupyter notebook uses pandas to inspect and prepare the data, with Plotly
-available for interactive visualizations.
+Jupyter notebook uses pandas to inspect and prepare the data, with Seaborn for visualizations.
 
 ## Dataset
 
-The notebook expects a file named `fitness_data.csv` in the project root. The
-dataset is synthetic; the `date` values were generated using ChatGPT's Data
-Mockstar. It does not represent real people or real health measurements.
+The notebook expects a file named `synthetic_fitness_185_days.csv` in the project root. The synthetic dataset was generated using ChatGPT’s Data Mockstar.
 
 ### Data dictionary
 
@@ -33,12 +30,11 @@ Mockstar. It does not represent real people or real health measurements.
 ## Getting started
 
 1. Clone or download this repository.
-2. Put `fitness_data.csv` in the project root, next to `tracker.ipynb`.
+2. Put `synthetic_fitness_185_days.csv` in the project root, next to `tracker.ipynb`.
 3. Install Python and the notebook dependencies:
 
    ```bash
-   python -m pip install pandas plotly jupyter
-   ```
+   python -m pip install -r requirements.txt   ```
 
 4. Start Jupyter and open the notebook:
 
